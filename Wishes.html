@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Wishes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ff399c; /* Light gray background */
+    }
+
+    .card:hover {
+      transform: scale(1.05); /* Scale up on hover */
+    }
+
+    .wish {
+      font-size: 18px;
+      color: #333; /* Dark gray text color */
+    }
+    /* Custom color classes */
+    .pink {
+      background-color: #ff99cc; /* Medium pink */
+      width: calc(45% - 20px); /* 45% width minus margin */
+      height: auto;
+  padding-bottom: calc(45% - 10px); /* 45% height minus padding */
+  margin: 20px;/* Pink background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Box shadow */
+  padding: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Cursor pointer */
+    }
+
+    .blue {
+      background-color: #99ccff; /* Light blue */
+      width: calc(45% - 20px); /* 45% width minus margin */
+      height: auto;
+  padding-bottom: calc(45% - 10px); /* 45% height minus padding */
+  margin: 20px;/* Pink background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Box shadow */
+  padding: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Cursor pointer */
+    }
+
+    .green {
+      background-color: #99ff99; /* Light green */
+      width: calc(45% - 20px); /* 45% width minus margin */
+      height: auto;
+  padding-bottom: calc(45% - 10px); /* 45% height minus padding */
+  margin: 20px;/* Pink background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Box shadow */
+  padding: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer; /* Cursor pointer */
+    }
+
+
+.container {
+  max-width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust spacing between cards */
+}
+body{
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  </style>
+</head>
+<body background="WhatsApp Image 2024-06-15 at 19.25.45_ea206244.jpg">
+  <div class="container">
+    <!-- Card 1 -->
+    <div class="card pink" onclick="toggleSize(this)">
+      <p class="wish">Happy Birthday! Wishing you a day filled with love and laughter.</p>
+    </div>
+  
+    <!-- Card 2 -->
+    <div class="card blue" onclick="toggleSize(this)">
+      <p class="wish">On your special day, may all your dreams and wishes come true.</p>
+    </div>
+  
+    <!-- Card 3 -->
+    <div class="card green" onclick="toggleSize(this)">
+      <p class="wish">Sending you smiles for every moment of your special day!</p>
+    </div>
+  
+    <!-- Card 4 -->
+    <div class="card pink" onclick="toggleSize(this)">
+      <p class="wish">Wishing you happiness, health, and all the best on your birthday!</p>
+    </div>
+  
+    <!-- Card 5 -->
+    <div class="card blue" onclick="toggleSize(this)">
+      <p class="wish">May your birthday be the start of a year filled with good luck, good health, and much happiness.</p>
+    </div>
+  
+    <!-- Card 6 -->
+    <div class="card green" onclick="toggleSize(this)">
+      <p class="wish">Sending you warmest wishes for a fantastic birthday celebration!</p>
+    </div>
+  
+    <!-- Card 7 -->
+    <div class="card pink" onclick="toggleSize(this)">
+      <p class="wish">Hope your birthday is as wonderful and extraordinary as you are!</p>
+    </div>
+  
+    <!-- Card 8 -->
+    <div class="card blue" onclick="toggleSize(this)">
+      <p class="wish">Here's to a fabulous birthday and a fantastic year ahead!</p>
+    </div>
+  
+    <!-- Card 9 -->
+    <div class="card green" onclick="toggleSize(this)">
+      <p class="wish">Wishing you an amazing day filled with surprises and joy!</p>
+    </div>
+  
+    <!-- Card 10 -->
+    <div class="card pink" onclick="toggleSize(this)">
+      <p class="wish">Celebrating you today and always. Happy Birthday!</p>
+    </div>
+  </div>
+  
+
+  <script>
+    // Toggle size of the clicked card
+    function toggleSize(card) {
+      card.classList.toggle('large');
+    }
+  </script>
+</body>
+</html>
